@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="deps\imgui-1.92.0\imgui.cpp">
+      <Filter>Source File\deps\imgui-1.92.0</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\imgui-1.92.0\imgui_demo.cpp">
+      <Filter>Source File\deps\imgui-1.92.0</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\imgui-1.92.0\imgui_draw.cpp">
+      <Filter>Source File\deps\imgui-1.92.0</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\imgui-1.92.0\imgui_tables.cpp">
+      <Filter>Source File\deps\imgui-1.92.0</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\imgui-1.92.0\imgui_widgets.cpp">
+      <Filter>Source File\deps\imgui-1.92.0</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Main.cpp">
+      <Filter>Source File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\siv3d_main_window.cpp">
+      <Filter>Source File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\siv3d-imgui\siv3d_imgui.cpp">
+      <Filter>Source File</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\siv3d_main_window.h">
+      <Filter>Source File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\siv3d-imgui\siv3d_imgui.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header File">
+      <UniqueIdentifier>{c794fbe9-585b-446b-92ea-a1431c086729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source File">
+      <UniqueIdentifier>{1566df97-552f-41bb-96be-a2a472d24061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource File">
+      <UniqueIdentifier>{5b5afc7d-32c8-4ae1-8c72-972c2b6f5b87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source File\deps">
+      <UniqueIdentifier>{d3488402-4152-4a4d-8b94-c05e716cc926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source File\deps\imgui-1.92.0">
+      <UniqueIdentifier>{57aed6e3-126a-458f-9ce2-1b5f31a2ef88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="App\Resource.rc">
+      <Filter>Resource File</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
